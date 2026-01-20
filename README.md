@@ -60,7 +60,7 @@ All analysis were done in Stata 16 and under Windows 11. Please follow the steps
 	- BHPS: British Household Panel Survey (BHPS), Understanding Society: Waves 1-15, 2009-2024 and Harmonised BHPS: Waves 1-18, 1991-2009 DOI: 10.5255/UKDA-SN-6614-20 
 Practical information on accessing the data and storing it on your personal storage device can be found in the Master-Do file under section #4.
 4. After setting up the raw data, run the rest of the CPF master do-File. You should now have created a CPF dataset (CPF-di.dta) with harmonized covariates within the folder 3_pdta\cpf\01cpf-out.
-5. Run the file 00master-ph-exercise-com in 1_scripts\pa to construct and analyze the harmonized dataset. All log-files, tables and figures should then be available in the output folder.
+5. Run the file 00master-ph-exercise-com in 1_scripts\di to construct and analyze the harmonized dataset. All log-files, tables and figures should then be available in the output folder.
 
 Please mail to [Linden Research](mailto:research@linden-online.com) if anything is not working properly.
 
