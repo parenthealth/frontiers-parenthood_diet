@@ -12,7 +12,7 @@ Conclusion: Individuals’ fruit and vegetable consumption is not strongly affec
 
 ----
 
-The paper by Munschek, S.; Linden, P. & Reibling, N. with the DOI: 10.3389/fpubh.2025.1673209 is available [here](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1673209/full). If you have any questions, please send an E-Mail to [Nadine Reibling](mailto:nadine.reibling@gw.hs-fulda.de).
+The paper by Munschek, S.; Linden, P. & Reibling, N. with the DOI: 10.3389/fpubh.2025.1673209 is available [here](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1673209/full). If you have any questions, please send an E-Mail to [Prof. Nadine Reibling](mailto:nadine.reibling@gw.hs-fulda.de).
 
 ----
 
