@@ -43,7 +43,7 @@ The paper by Munschek, S.; Linden, P. & Reibling, N. with the DOI: 10.3389/fpubh
 
 ### Description
 
-This repository contains the code for the analysis in the paper entitled "Changes in fruit and vegetable consumption during the transition to parenthood: longitudinal evidence from Australia and the United Kingdom" which is published under open access in [Frontiers in public health, section public health and nutrition(https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1673209/full).
+This repository contains the code for the analysis in the paper entitled "Changes in fruit and vegetable consumption during the transition to parenthood: longitudinal evidence from Australia and the United Kingdom" which is published under open access in [Frontiers in public health, section public health and nutrition](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1673209/full).
 
 The data for this analysis comes from harmonized data from two longitudinal household surveys: the Household, Income and Labour Dynamics [HILDA](https://melbourneinstitute.unimelb.edu.au/hilda) for Australia & the British Household Panel Survey [BHPS](https://www.understandingsociety.ac.uk/about/british-household-panel-survey/) for the United Kingdom. Harmonization of covariates was achieved by adapting procedures from [Turek et al. 2021](https://academic.oup.com/esr/article/37/3/505/6168670). Please refer to the [CPF project](https://cpfdata.com/) for details. After harmonization and preparation of the data sets, we were able to analyze a sample of N=34,867 person-years over a time period from 2007-2018 (11 years).
 
