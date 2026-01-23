@@ -298,12 +298,12 @@ lab var syear "Wave"
 
 esttab ///
     MDID21a_au MDID21b_au MDID21c_au MDID21a_uk MDID21b_uk MDID21c_uk ///
-    using "${text}/tableA2.rtf", append ///
+    using "${text}/tableA2.rtf", replace ///
     title("Appendix - Dietary Models for Men") ///
     stats(N aic bic ll r2_a, fmt(%9.0g) labels("Observations" "AIC" "BIC" "Log-likelihood" "R²")) ///
     cells(b(fmt(3) star) se(par)) ///
     se star(* 0.10 ** 0.05 *** 0.01) b(3) ///
-    mlabels("AU-Veg.-Fr." "UK-Veg.-Fr." "AU-Veg." "UK-Veg." "AU-Fr." "UK-Fr.") ///
+    mlabels("AU-Veg.-Fr." "AU-Veg." "AU-Fr." "UK-Veg.-Fr." "UK-Veg." "UK-Fr.") ///
     eqlabels(none) label ///
    varlabels( ///
         parent_tvc "Time before/since birth (Ref.: BY-3a+)" ///
@@ -323,12 +323,12 @@ esttab ///
 
 esttab ///
     MDID22a_au MDID22b_au MDID22c_au MDID22a_uk MDID22b_uk MDID22c_uk ///
-    using "${text}/tableA2.rtf", replace ///
+    using "${text}/tableA2.rtf", append ///
     title("Appendix - Dietary Models for Women") ///
     stats(N aic bic ll r2_a, fmt(%9.0g) labels("Observations" "AIC" "BIC" "Log-likelihood" "R²")) ///
     cells(b(fmt(3) star) se(par)) ///
     se star(* 0.10 ** 0.05 *** 0.01) b(3) ///
-    mlabels("AU-Veg.-Fr." "UK-Veg.-Fr." "AU-Veg." "UK-Veg." "AU-Fr." "UK-Fr.") ///
+    mlabels("AU-Veg.-Fr." "AU-Veg." "AU-Fr." "UK-Veg.-Fr." "UK-Veg." "UK-Fr.") ///
     eqlabels(none) label ///
    varlabels( ///
         parent_tvc "Time before/since birth (Ref.: BY-3a+)" ///
@@ -593,7 +593,7 @@ esttab ///
     stats(N, fmt(%9.0g) labels("Observations" "AIC" "BIC" "Log-likelihood" "R²")) ///
     cells(b(fmt(3) star) se(par)) ///
     se star(* 0.10 ** 0.05 *** 0.01) b(3) ///
-    mlabels("AU-Edu. low/middle" "UK-Edu. low/middle" "AU-Edu. high" "UK-Edu. high") ///
+    mlabels("AU-Edu. low/middle" "AU-Edu. high" "UK-Edu. low/middle" "UK-Edu. high") ///
     eqlabels(none) label ///
     varlabels( ///
         parent_tvc "Time before/since birth (Ref.: BY-3a+)" ///
@@ -617,7 +617,7 @@ esttab ///
     stats(N, fmt(%9.0g) labels("Observations" "AIC" "BIC" "Log-likelihood" "R²")) ///
     cells(b(fmt(3) star) se(par)) ///
     se star(* 0.10 ** 0.05 *** 0.01) b(3) ///
-    mlabels("AU-Edu. low/middle" "UK-Edu. low/middle" "AU-Edu. high" "UK-Edu. high") ///
+    mlabels("AU-Edu. low/middle" "AU-Edu. high" "UK-Edu. low/middle" "UK-Edu. high") ///
     eqlabels(none) label ///
     varlabels( ///
         parent_tvc "Time before/since birth (Ref.: BY-3a+)" ///
@@ -641,7 +641,7 @@ esttab ///
     stats(N aic bic ll r2_a, fmt(%9.0g) labels("Observations" "AIC" "BIC" "Log-likelihood" "R²")) ///
     cells(b(fmt(3) star) se(par)) ///
     se star(* 0.10 ** 0.05 *** 0.01) b(3) ///
-    mlabels("AU-Edu. low/middle" "UK-Edu. low/middle" "AU-Edu. high" "UK-Edu. high") ///
+    mlabels("AU-Edu. low/middle" "AU-Edu. high" "UK-Edu. low/middle" "UK-Edu. high") ///
     eqlabels(none) label ///
     varlabels( ///
         parent_tvc "Time before/since birth (Ref.: BY-3a+)" ///
